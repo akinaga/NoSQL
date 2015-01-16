@@ -7,7 +7,7 @@ import codecs
 import time
 import random
 
-f = open('streetname.txt','r')
+f = open('../streetname.txt','r')
 food = f.readlines()
 f.close()
 for i in xrange(len(food)):
